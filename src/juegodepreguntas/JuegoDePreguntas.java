@@ -152,7 +152,7 @@ public class JuegoDePreguntas extends javax.swing.JFrame {
                      JOptionPane.ERROR_MESSAGE 
                 );
              this.dispose();
-            FinDelJuego finDelJuegoForm = new FinDelJuego(acumulado);
+            FinDelJuego finDelJuegoForm = new FinDelJuego(0);
             finDelJuegoForm.setVisible(true);
          }
      }
